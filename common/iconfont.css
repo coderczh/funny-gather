@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3993192 */
+  src: url('iconfont.woff2?t=1680501130766') format('woff2'),
+       url('iconfont.woff?t=1680501130766') format('woff'),
+       url('iconfont.ttf?t=1680501130766') format('truetype');
+}
+
+.iconfont { 
+  font-family: "iconfont" !important;
+  font-size: 30upx;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.czh-demoMeal:before {
+  content: "\e62f";
+}
+

@@ -1,0 +1,21 @@
+
+.box {
+	height: 15.625rem;
+	width: 100%;
+	border: 0.03125rem solid #CCCCCC;
+	display: flex;
+}
+.box-item {
+	color: #FFFFFF;
+	height: 6.25rem;
+	width: 6.25rem;
+	line-height: 6.25rem;
+	font-size: 0.9375rem;
+	font-weight: bold;
+}
+.box-item:nth-of-type(odd) {
+	background-color: #007aff;
+}
+.box-item:nth-of-type(even) {
+	background-color: #09bb07;
+}
